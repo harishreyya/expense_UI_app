@@ -1,17 +1,131 @@
-# React + Vite
+# 💰 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Finance Dashboard** built with React that helps users track, analyze, and manage their financial activity through an intuitive interface.
 
-Currently, two official plugins are available:
+## DEMO LINK : []()
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 📌 Project Overview
 
-## React Compiler
+This project is a frontend-focused finance dashboard designed to demonstrate:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Clean UI/UX design principles  
+- Component-based architecture  
+- State management  
+- Data visualization  
+- Role-based UI behavior  
 
-## Expanding the ESLint configuration
+The application allows users to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# expense_UI_app
+- View financial summaries  
+- Analyze spending patterns  
+- Manage transactions  
+- Gain insights from data  
+
+---
+
+# ✨ Features
+
+## 📊 Dashboard Overview
+- Total Balance, Income, and Expenses summary cards  
+- Time-based balance trend chart  
+- Category-based spending pie chart  
+- Quick stats (transactions count, categories, last updated)  
+
+---
+
+## 💳 Transactions Module
+- View all transactions in a structured table  
+- Responsive table (desktop + mobile card view)  
+- Search transactions by category  
+- Filter by type (Income / Expense)  
+- Sort by:
+  - Latest / Oldest  
+  - Amount (High → Low / Low → High)  
+
+---
+
+## 🔐 Role-Based UI
+- **Viewer**
+  - Can only view data  
+- **Admin**
+  - Can add transactions  
+  - Can edit transactions  
+  - Can delete transactions  
+
+- Role switching via UI toggle  
+
+---
+
+## 📈 Insights & Analytics
+- Highest spending category  
+- Monthly income vs expense comparison  
+- Smart insights based on data  
+- Visual analytics using charts  
+
+---
+
+## 🧠 State Management
+- Centralized state using React Context  
+- Transactions stored in **localStorage**  
+- Full CRUD operations:
+  - Add  
+  - Edit  
+  - Delete  
+- Data persists during app usage  
+
+---
+
+## 🎨 UI/UX Enhancements
+- Clean and modern UI  
+- Smooth hover effects and transitions  
+- Fully responsive (Mobile / Tablet / Desktop)  
+- Empty states (No data / No results)  
+- Professional table alignment and layout  
+
+---
+
+## 🌙 Dark Mode
+- Toggle between Light & Dark themes  
+- Proper color contrast and readability  
+- Persistent UI experience  
+
+---
+
+## 📤 Export Feature
+- Export transactions as **CSV file**  
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React (Vite)
+- Tailwind CSS
+
+## Charts & Visualization
+- Recharts
+
+## State Management
+- React Context API
+
+## Storage
+- LocalStorage (Mock Database)
+
+---
+# 🚀 How to Run the Project 
+```bash
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/finance-dashboard.git
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Run Development Server
+npm run dev
+
+4️⃣ Open in Browser
+http://localhost:5173"
+
+THE APP WILL RUN
+```
