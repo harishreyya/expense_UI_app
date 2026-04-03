@@ -116,7 +116,7 @@ The application allows users to:
 # 🚀 How to Run the Project 
 ```bash
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/finance-dashboard.git
+git clone `https://github.com/harishreyya/expense_UI_app.git`
 
 2️⃣ Install Dependencies
 npm install
