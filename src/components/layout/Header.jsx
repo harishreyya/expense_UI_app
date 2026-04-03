@@ -169,10 +169,9 @@ function Header() {
               px-3 py-1 rounded-lg 
               bg-gray-100 dark:bg-gray-800 
               text-gray-700 dark:text-gray-200
-              w-full text-left
             "
           >
-            {dark ? "🌙 Dark Mode" : "☀️ Light Mode"}
+            {dark ? "🌙" : "☀️"}
           </button>
 
           <div className="flex gap-2 pt-2">
