@@ -2,7 +2,7 @@
 
 A modern, responsive **Finance Dashboard** built with React that helps users track, analyze, and manage their financial activity through an intuitive interface.
 
-## DEMO LINK : []()
+## DEMO LINK : [https://finance-dashboard-psi-blush.vercel.app/](https://finance-dashboard-psi-blush.vercel.app/)
 ---
 
 # 📌 Project Overview
