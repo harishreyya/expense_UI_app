@@ -116,7 +116,7 @@ The application allows users to:
 # 🚀 How to Run the Project 
 ```bash
 1️⃣ Clone the Repository
-git clone `https://github.com/harishreyya/expense_UI_app.git`
+git clone ` https://github.com/harishreyya/expense_UI_app.git `
 
 2️⃣ Install Dependencies
 npm install
@@ -125,7 +125,7 @@ npm install
 npm run dev
 
 4️⃣ Open in Browser
-http://localhost:5173"
+` http://localhost:5173 `
 
 THE APP WILL RUN
 ```
